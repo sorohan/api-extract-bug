@@ -7,7 +7,7 @@
 // @beta (undocumented)
 export class TestBug {
     // (undocumented)
-    set foo(x: string);
+    foo: string;
     }
 
 
