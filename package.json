@@ -1,0 +1,28 @@
+{
+  "name": "api-extract-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "preextract": "npm run build",
+    "extract": "api-extractor run --local",
+    "precheck": "npm run build",
+    "check": "api-extractor run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorohan/api-extract-bug.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sorohan/api-extract-bug/issues"
+  },
+  "homepage": "https://github.com/sorohan/api-extract-bug#readme",
+  "devDependencies": {
+    "@microsoft/api-extractor": "^7.9.15"
+  }
+}
