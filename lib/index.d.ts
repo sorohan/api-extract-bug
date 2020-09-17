@@ -3,5 +3,5 @@
  */
 export declare class TestBug {
     private x;
-    foo: string;
+    set foo(x: string);
 }

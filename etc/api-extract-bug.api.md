@@ -6,9 +6,8 @@
 
 // @beta (undocumented)
 export class TestBug {
-    // (undocumented)
-    foo: string;
-    }
+    set foo(x: string);
+}
 
 
 // (No @packageDocumentation comment for this package)
