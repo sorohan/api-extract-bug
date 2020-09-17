@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/sorohan/api-extract-bug#readme",
   "devDependencies": {
-    "@microsoft/api-extractor": "^7.7.13"
+    "@microsoft/api-extractor": "7.7.0"
   }
 }
